@@ -64,6 +64,8 @@ RUN set -eux; \
 # injected port rather than the domain's target port, so 8080 is the only value
 # that keeps both the edge and the healthcheck pointed at nginx.
 ENV ROMM_ADMIN_USERNAME=admin \
+    DB_USER=romm \
+    DB_NAME=romm \
     ROMM_BASE_PATH=/romm \
     ROMM_SESSION_SECURE_COOKIE=true \
     DISABLE_SETUP_WIZARD=true \

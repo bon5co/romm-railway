@@ -24,5 +24,14 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/romm-railway:latest
+          tags: |
+            ghcr.io/${{ github.repository_owner }}/romm-railway:latest
             ghcr.io/${{ github.repository_owner }}/romm-railway:5.1.0
+      - uses: docker/build-push-action@v6
+        with:
+          context: mariadb
+          file: mariadb/Dockerfile
+          push: true
+          tags: |
+            ghcr.io/${{ github.repository_owner }}/romm-railway-mariadb:latest
+            ghcr.io/${{ github.repository_owner }}/romm-railway-mariadb:11.4
