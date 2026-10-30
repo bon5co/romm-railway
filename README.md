@@ -1,5 +1,9 @@
 # romm-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/romm-v510-or-rom-manager-no-stranger-can?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [RomM template](https://railway.com/deploy/romm-v510-or-rom-manager-no-stranger-can?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Railway-tuned wrapper image for [RomM](https://github.com/rommapp/romm), the
 self-hosted ROM manager and player. Published as
 `ghcr.io/bon5co/romm-railway`.
